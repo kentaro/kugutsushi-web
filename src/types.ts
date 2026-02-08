@@ -6,6 +6,7 @@ export interface NoteData {
   type: 'learning' | 'dialogue' | 'journal' | 'clips'
   source?: string
   excerpt: string
+  body: string
   keywords: string[]
 }
 

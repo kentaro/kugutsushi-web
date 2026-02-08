@@ -16,6 +16,7 @@ interface NoteData {
   type: 'learning' | 'dialogue' | 'journal' | 'clips'
   source?: string
   excerpt: string
+  body: string
   keywords: string[]
 }
 
@@ -109,6 +110,7 @@ function main() {
           type: detectType(file),
           source: fm.source,
           excerpt: getExcerpt(content),
+          body: content.replace(/^---[\s\S]*?---/, '').trim(),
           keywords: extractKeywords(content),
         })
       } catch (e) {
