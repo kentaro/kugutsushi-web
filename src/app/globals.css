@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #0a0a0a;
+  --fg: #ededed;
+  --accent: #7c6f64;
+  --learning: #b8bb26;
+  --dialogue: #83a598;
+  --journal: #d3869b;
+  --clips: #fabd2f;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", system-ui, sans-serif;
+}
