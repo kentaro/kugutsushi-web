@@ -29,7 +29,17 @@ export function NotePanel({ note, onClose }: { note: NoteData; onClose: () => vo
           >
             {typeLabels[note.type]}
           </span>
-          <button onClick={onClose} className="text-neutral-500 hover:text-neutral-200 text-xl leading-none px-1">×</button>
+          <div className="flex items-center gap-2">
+            <button
+              onClick={() => {
+                const url = `${window.location.origin}${window.location.pathname}#note=${encodeURIComponent(note.id)}`
+                navigator.clipboard.writeText(url)
+              }}
+              className="text-neutral-500 hover:text-neutral-200 text-xs px-1.5 py-0.5 rounded border border-neutral-700 hover:border-neutral-500"
+              title="パーマリンクをコピー"
+            >🔗</button>
+            <button onClick={onClose} className="text-neutral-500 hover:text-neutral-200 text-xl leading-none px-1">×</button>
+          </div>
         </div>
         <h2 className="text-base font-bold mt-2 leading-snug">{note.title}</h2>
         {note.date && <p className="text-xs text-neutral-500 mt-1">{note.date}</p>}

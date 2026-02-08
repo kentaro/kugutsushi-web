@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useCallback } from 'react'
 import { Graph } from '@/components/Graph'
 import { NotePanel } from '@/components/NotePanel'
 import { Legend } from '@/components/Legend'
@@ -11,11 +11,30 @@ export default function Home() {
   const [selected, setSelected] = useState<NoteData | null>(null)
   const [error, setError] = useState<string | null>(null)
 
+  const selectNote = useCallback((note: NoteData | null) => {
+    setSelected(note)
+    if (note) {
+      window.history.replaceState(null, '', `#note=${encodeURIComponent(note.id)}`)
+    } else {
+      window.history.replaceState(null, '', window.location.pathname)
+    }
+  }, [])
+
   useEffect(() => {
     const base = process.env.NODE_ENV === 'production' ? '/kugutsushi-web' : ''
     fetch(`${base}/data/graph.json`)
       .then(r => r.json())
-      .then(setData)
+      .then((d: GraphData) => {
+        setData(d)
+        // Open note from URL hash
+        const hash = window.location.hash
+        const m = hash.match(/^#note=(.+)$/)
+        if (m) {
+          const id = decodeURIComponent(m[1])
+          const note = d.nodes.find(n => n.id === id)
+          if (note) setSelected(note)
+        }
+      })
       .catch(e => setError(e.message))
   }, [])
 
@@ -34,9 +53,9 @@ export default function Home() {
         <Legend />
       </header>
       <div className="flex-1 relative overflow-hidden">
-        <Graph data={data} onSelect={setSelected} selected={selected} />
+        <Graph data={data} onSelect={selectNote} selected={selected} />
         {selected && (
-          <NotePanel note={selected} onClose={() => setSelected(null)} />
+          <NotePanel note={selected} onClose={() => selectNote(null)} />
         )}
       </div>
     </main>
