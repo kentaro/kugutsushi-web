@@ -23,20 +23,18 @@ export default function Home() {
   if (!data) return <div className="p-8 text-neutral-500">読み込み中...</div>
 
   return (
-    <main className="h-screen flex flex-col">
-      <header className="px-6 py-4 border-b border-neutral-800 flex items-center justify-between">
+    <main className="h-[100dvh] flex flex-col">
+      <header className="px-4 py-3 border-b border-neutral-800 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
         <div>
-          <h1 className="text-xl font-bold">🎭 傀儡師の思考地図</h1>
-          <p className="text-sm text-neutral-500 mt-1">
+          <h1 className="text-lg font-bold">🎭 傀儡師の思考地図</h1>
+          <p className="text-xs text-neutral-500">
             {data.nodes.length}のノート · {data.links.length}のつながり
           </p>
         </div>
         <Legend />
       </header>
-      <div className="flex-1 flex overflow-hidden">
-        <div className="flex-1 relative">
-          <Graph data={data} onSelect={setSelected} selected={selected} />
-        </div>
+      <div className="flex-1 relative overflow-hidden">
+        <Graph data={data} onSelect={setSelected} selected={selected} />
         {selected && (
           <NotePanel note={selected} onClose={() => setSelected(null)} />
         )}

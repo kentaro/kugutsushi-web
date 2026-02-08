@@ -125,7 +125,19 @@ export function Graph({ data, onSelect, selected }: Props) {
     // Tooltip
     const tooltip = d3.select(svgRef.current.parentElement!)
       .append('div')
-      .attr('class', 'absolute pointer-events-none bg-neutral-900 text-neutral-200 text-xs px-2 py-1 rounded opacity-0 transition-opacity z-50 max-w-64')
+      .style('position', 'absolute')
+      .style('pointer-events', 'none')
+      .style('background', '#1a1a1a')
+      .style('color', '#ddd')
+      .style('font-size', '12px')
+      .style('padding', '4px 8px')
+      .style('border-radius', '4px')
+      .style('opacity', '0')
+      .style('z-index', '50')
+      .style('max-width', '200px')
+      .style('white-space', 'nowrap')
+      .style('overflow', 'hidden')
+      .style('text-overflow', 'ellipsis')
 
     // Simulation
     const sim = d3.forceSimulation<SimNode>(nodes)
