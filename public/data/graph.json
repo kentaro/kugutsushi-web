@@ -31920,6 +31920,33 @@
       ]
     },
     {
+      "id": "2026-03-13-colossal-a-language-we-share-parks-price",
+      "title": "'A Language We Share' Traces a Photographic Lineage Between Gordon Parks and Beverly Price",
+      "date": "2026-03-13T00:00:00.000Z",
+      "category": "clips",
+      "type": "clips",
+      "source": "Colossal",
+      "excerpt": "- BrooklynのCenter for Art and Advocacyでの展覧会 A Language We Share（2026-03-20〜06-19）。Gordon Parks（1912-2006）とBeverly Priceを並置し、写真を「記録」でなくアドヴォカシー（武器）として読む。 - Parksの言葉「カメラは貧困や人種差別に対する武器になりうる」が核。 - Priceは、出…",
+      "body": "## メモ\n- BrooklynのCenter for Art and Advocacyでの展覧会 **A Language We Share**（2026-03-20〜06-19）。Gordon Parks（1912-2006）とBeverly Priceを並置し、写真を「記録」でなく**アドヴォカシー（武器）**として読む。\n- Parksの言葉「カメラは貧困や人種差別に対する武器になりうる」が核。\n- Priceは、出所後しばらくしてから写真を始め、ワシントンD.C.（Southeast Anacostia）でコミュニティを撮る。地理的な重なりが“対話”になる。\n- 子ども／歓びの瞬間と、貧困・警察暴力・投獄制度が同じフレームに入り込む。\n\n## 気になった点（引用）\n> I saw that the camera could be a weapon against poverty, against racism…",
+      "keywords": [
+        "写真",
+        "武器",
+        "貧困",
+        "Parks",
+        "Price",
+        "アドヴォカシー",
+        "カメラ",
+        "ワシントン",
+        "コミュニティ",
+        "フレーム",
+        "展覧会",
+        "並置",
+        "記録",
+        "言葉",
+        "人種差別"
+      ]
+    },
+    {
       "id": "2026-03-13-colossal-alexander-endrullat-off-the-grid",
       "title": "Longevity and Obsoletion Impress Upon Alexander Endrullat’s Intaglio Prints",
       "date": "2026-03-13T00:00:00.000Z",
@@ -31971,6 +31998,33 @@
         "作品",
         "本人",
         "表現"
+      ]
+    },
+    {
+      "id": "2026-03-13-designboom-yorgos-lanthimos-photographs",
+      "title": "'this is freedom': yorgos lanthimos on photography beyond cinema",
+      "date": "2026-03-13T00:00:00.000Z",
+      "category": "clips",
+      "type": "clips",
+      "source": "Designboom",
+      "excerpt": "- アテネのOnassis Stegiで開催される写真展（2026-03-07〜05-17、キュレーション: Michael Mack）に合わせた、ヨルゴス・ランティモスのフォトグラフィー観。 - 映画制作の「協働の機械」から離れて、ひとりで歩き、撮るという身軽さ＝自由を強調。 - 写真は単体でも、束ね方（本／展示／並べ替え）でも意味が変わる＝「固定された物語」からの解放。 - アナログ写真の触覚…",
+      "body": "## メモ\n- アテネのOnassis Stegiで開催される写真展（2026-03-07〜05-17、キュレーション: Michael Mack）に合わせた、ヨルゴス・ランティモスのフォトグラフィー観。\n- 映画制作の「協働の機械」から離れて、**ひとりで歩き、撮る**という身軽さ＝自由を強調。\n- 写真は単体でも、束ね方（本／展示／並べ替え）でも意味が変わる＝「固定された物語」からの解放。\n- アナログ写真の触覚性（プリントを手に取る即時の満足、紙や匂い）や、「記憶は連続ではなく単一の像として残る」という話が良い。\n\n## 気になった点（引用）\n> You can be alone, with a camera in your hand, and you can walk… This is freedom.\n\n> My memories are usually just single images.",
+      "keywords": [
+        "写真",
+        "アテネ",
+        "キュレーション",
+        "ヨルゴス・ランティモス",
+        "フォトグラフィー",
+        "アナログ",
+        "プリント",
+        "開催",
+        "写真展",
+        "映画制作",
+        "協働",
+        "機械",
+        "身軽",
+        "自由",
+        "強調"
       ]
     },
     {
@@ -38861,6 +38915,25 @@
       "sharedKeywords": [
         "写真",
         "記録"
+      ]
+    },
+    {
+      "source": "2026年1月27日-ドキュメンタリー論",
+      "target": "2026-03-13-colossal-a-language-we-share-parks-price",
+      "weight": 3,
+      "sharedKeywords": [
+        "写真",
+        "カメラ",
+        "記録"
+      ]
+    },
+    {
+      "source": "2026年1月27日-ドキュメンタリー論",
+      "target": "2026-03-13-designboom-yorgos-lanthimos-photographs",
+      "weight": 2,
+      "sharedKeywords": [
+        "写真",
+        "機械"
       ]
     },
     {
@@ -50697,6 +50770,15 @@
       ]
     },
     {
+      "source": "2026年2月11日-写真論——ソンタグ、バルト、ベンヤミンの三角測量",
+      "target": "2026-03-13-colossal-a-language-we-share-parks-price",
+      "weight": 2,
+      "sharedKeywords": [
+        "写真",
+        "カメラ"
+      ]
+    },
+    {
       "source": "2026年2月11日-圏論の基本概念と認知科学への射程",
       "target": "2026年2月12日-スカルラッティと鍵盤音楽の軽さ",
       "weight": 2,
@@ -54268,6 +54350,15 @@
     {
       "source": "2026年2月13日-複式簿記と会計の文明史",
       "target": "2026-03-11-culture",
+      "weight": 2,
+      "sharedKeywords": [
+        "記録",
+        "写真"
+      ]
+    },
+    {
+      "source": "2026年2月13日-複式簿記と会計の文明史",
+      "target": "2026-03-13-colossal-a-language-we-share-parks-price",
       "weight": 2,
       "sharedKeywords": [
         "記録",
@@ -74749,6 +74840,15 @@
       ]
     },
     {
+      "source": "2026年2月22日-ラップは何を映しているのか（トラップの音像と「いま」）",
+      "target": "2026-03-13-colossal-a-language-we-share-parks-price",
+      "weight": 2,
+      "sharedKeywords": [
+        "言葉",
+        "コミュニティ"
+      ]
+    },
+    {
       "source": "2026年2月22日-医療危機（国民皆保険の「名ばかり化」と価値選択）",
       "target": "2026年2月25日-MOT（技術経営）-価値創造と価値獲得-二重定義",
       "weight": 2,
@@ -88191,6 +88291,15 @@
       "sharedKeywords": [
         "方向",
         "自由"
+      ]
+    },
+    {
+      "source": "2026年2月8日-柳宗悦の民藝思想",
+      "target": "2026-03-13-designboom-yorgos-lanthimos-photographs",
+      "weight": 2,
+      "sharedKeywords": [
+        "自由",
+        "機械"
       ]
     },
     {
@@ -115148,6 +115257,15 @@
     },
     {
       "source": "2026年1月29日-よさの峰に登る",
+      "target": "2026-03-13-colossal-a-language-we-share-parks-price",
+      "weight": 2,
+      "sharedKeywords": [
+        "写真",
+        "カメラ"
+      ]
+    },
+    {
+      "source": "2026年1月29日-よさの峰に登る",
       "target": "2026-03-13-nasa-sparcs-first-light",
       "weight": 2,
       "sharedKeywords": [
@@ -138079,6 +138197,15 @@
       "sharedKeywords": [
         "エージェント",
         "導入"
+      ]
+    },
+    {
+      "source": "2026-03-11-culture",
+      "target": "2026-03-13-colossal-a-language-we-share-parks-price",
+      "weight": 2,
+      "sharedKeywords": [
+        "記録",
+        "写真"
       ]
     },
     {
