@@ -39525,6 +39525,33 @@
       ]
     },
     {
+      "id": "2026-03-22-mistrals-small-4-reasoning-vision-coding-in-one-model",
+      "title": "Mistral's Small 4: reasoning + vision + coding in one model",
+      "date": "",
+      "category": "clips",
+      "type": "clips",
+      "source": "VentureBeat AI",
+      "excerpt": "- 小型モデルの「役割分業（推論/視覚/コーディング）」を1本化して運用コストを下げる話。推論レベル可変は実務で効く。  Mistral's Small 4 consolidates reasoning, vision and coding into one model — at a fraction of the inference cost  VentureBeat  Mistral's Sm…",
+      "body": "# Mistral's Small 4: reasoning + vision + coding in one model\n\n## TL;DR\n- 小型モデルの「役割分業（推論/視覚/コーディング）」を1本化して運用コストを下げる話。推論レベル可変は実務で効く。\n\n## Excerpt (auto-extracted)\n> Mistral's Small 4 consolidates reasoning, vision and coding into one model — at a fraction of the inference cost | VentureBeat\n\n> Mistral's Small 4 consolidates reasoning, vision and coding into one model — at a fraction of the inference cost\n> Emilia David March 20, 2026\n\n> Enterprises that have been juggling separate models for reasoning, multimodal tasks, and agentic coding may be able to simplify their stack: Mistral’s new Small 4 brings all three into a single open-source model, with adjustable reasoning levels under the hood.\n\n## Links\n- <https://venturebeat.com/technology/mistrals-small-4-consolidates-reasoning-vision-and-coding-into-one-model-at>",
+      "keywords": [
+        "Mistral",
+        "Small",
+        "推論",
+        "モデル",
+        "コーディング",
+        "コスト",
+        "レベル",
+        "小型",
+        "役割分業",
+        "視覚",
+        "本化",
+        "運用",
+        "可変",
+        "実務",
+        "Excerpt"
+      ]
+    },
+    {
       "id": "2026-03-22-nevada-bans-kalshi-temporary",
       "title": "Nevada Becomes First State to Ban Prediction Market Kalshi—At Least for Now",
       "date": "2026-03-22T00:00:00.000Z",
@@ -62569,6 +62596,15 @@
     },
     {
       "source": "2026年2月13日-学習の生態学",
+      "target": "2026-03-22-mistrals-small-4-reasoning-vision-coding-in-one-model",
+      "weight": 2,
+      "sharedKeywords": [
+        "モデル",
+        "コスト"
+      ]
+    },
+    {
+      "source": "2026年2月13日-学習の生態学",
       "target": "2026-03-22-tinybox-tinygrad",
       "weight": 2,
       "sharedKeywords": [
@@ -64128,6 +64164,15 @@
       "sharedKeywords": [
         "モデル",
         "データ"
+      ]
+    },
+    {
+      "source": "2026年2月13日-計算論的精神医学",
+      "target": "2026-03-22-mistrals-small-4-reasoning-vision-coding-in-one-model",
+      "weight": 2,
+      "sharedKeywords": [
+        "モデル",
+        "推論"
       ]
     },
     {
@@ -71723,6 +71768,15 @@
     },
     {
       "source": "2026年2月15日-因果推論と介入（確率モデルと因果モデル）",
+      "target": "2026-03-22-mistrals-small-4-reasoning-vision-coding-in-one-model",
+      "weight": 2,
+      "sharedKeywords": [
+        "モデル",
+        "推論"
+      ]
+    },
+    {
+      "source": "2026年2月15日-因果推論と介入（確率モデルと因果モデル）",
       "target": "2026-03-22-tinybox-tinygrad",
       "weight": 2,
       "sharedKeywords": [
@@ -72307,6 +72361,15 @@
       "sharedKeywords": [
         "モデル",
         "データ"
+      ]
+    },
+    {
+      "source": "2026年2月15日-変分推論（ELBO）とVAE—尤度最大化を「下限の最大化」に落とす",
+      "target": "2026-03-22-mistrals-small-4-reasoning-vision-coding-in-one-model",
+      "weight": 2,
+      "sharedKeywords": [
+        "運用",
+        "モデル"
       ]
     },
     {
@@ -73154,6 +73217,15 @@
     {
       "source": "2026年2月15日-安定モデル意味論とGL還元",
       "target": "2026-03-22-ethereum-treasury-public-companies",
+      "weight": 2,
+      "sharedKeywords": [
+        "モデル",
+        "運用"
+      ]
+    },
+    {
+      "source": "2026年2月15日-安定モデル意味論とGL還元",
+      "target": "2026-03-22-mistrals-small-4-reasoning-vision-coding-in-one-model",
       "weight": 2,
       "sharedKeywords": [
         "モデル",
@@ -76726,6 +76798,15 @@
       "sharedKeywords": [
         "モデル",
         "結果"
+      ]
+    },
+    {
+      "source": "2026年2月16日-宣言的並列性と観測可能な非決定性",
+      "target": "2026-03-22-mistrals-small-4-reasoning-vision-coding-in-one-model",
+      "weight": 2,
+      "sharedKeywords": [
+        "モデル",
+        "レベル"
       ]
     },
     {
@@ -137141,6 +137222,15 @@
     },
     {
       "source": "2026年3月18日-予測する脳（予測符号化と自由エネルギー原理——知覚は推論である）",
+      "target": "2026-03-22-mistrals-small-4-reasoning-vision-coding-in-one-model",
+      "weight": 2,
+      "sharedKeywords": [
+        "モデル",
+        "推論"
+      ]
+    },
+    {
+      "source": "2026年3月18日-予測する脳（予測符号化と自由エネルギー原理——知覚は推論である）",
       "target": "2026-03-24-ai-tech",
       "weight": 3,
       "sharedKeywords": [
@@ -137324,6 +137414,15 @@
     {
       "source": "2026年3月18日-制度と技術の関係（標準化・規格・推奨の正当化）",
       "target": "2026-03-05-ai-tech",
+      "weight": 2,
+      "sharedKeywords": [
+        "運用",
+        "コスト"
+      ]
+    },
+    {
+      "source": "2026年3月18日-制度と技術の関係（標準化・規格・推奨の正当化）",
+      "target": "2026-03-22-mistrals-small-4-reasoning-vision-coding-in-one-model",
       "weight": 2,
       "sharedKeywords": [
         "運用",
@@ -157228,6 +157327,15 @@
     },
     {
       "source": "2026年3月4日-証明書失効（CRL-OCSP）とエコシステムの設計",
+      "target": "2026-03-22-mistrals-small-4-reasoning-vision-coding-in-one-model",
+      "weight": 2,
+      "sharedKeywords": [
+        "運用",
+        "コスト"
+      ]
+    },
+    {
+      "source": "2026年3月4日-証明書失効（CRL-OCSP）とエコシステムの設計",
       "target": "2026-03-23_79626_OpenSSLで証明書を作ってAPI-GatewayREST-APIにmTLS認証を実装してみた",
       "weight": 2,
       "sharedKeywords": [
@@ -160496,6 +160604,15 @@
     {
       "source": "2026年3月8日-観察データで反実仮想を作る（自然実験と因果メカニズム）",
       "target": "2026-03-21-ai-tech",
+      "weight": 2,
+      "sharedKeywords": [
+        "モデル",
+        "推論"
+      ]
+    },
+    {
+      "source": "2026年3月8日-観察データで反実仮想を作る（自然実験と因果メカニズム）",
+      "target": "2026-03-22-mistrals-small-4-reasoning-vision-coding-in-one-model",
       "weight": 2,
       "sharedKeywords": [
         "モデル",
@@ -164222,6 +164339,15 @@
     },
     {
       "source": "2026-03-22-ai-tech",
+      "target": "2026-03-22-mistrals-small-4-reasoning-vision-coding-in-one-model",
+      "weight": 2,
+      "sharedKeywords": [
+        "コスト",
+        "運用"
+      ]
+    },
+    {
+      "source": "2026-03-22-ai-tech",
       "target": "2026-03-22-nvidia-nemoclaw-dgx-spark",
       "weight": 2,
       "sharedKeywords": [
@@ -166579,6 +166705,15 @@
       "sharedKeywords": [
         "モデル",
         "訓練"
+      ]
+    },
+    {
+      "source": "2026年1月26日-Apple-ML-Roster-of-Experts-(RoE)-—-学習不要でMoEを動的アンサンブル化",
+      "target": "2026-03-22-mistrals-small-4-reasoning-vision-coding-in-one-model",
+      "weight": 2,
+      "sharedKeywords": [
+        "モデル",
+        "コスト"
       ]
     },
     {
@@ -184853,6 +184988,15 @@
     },
     {
       "source": "2026-02-27-ai-tech",
+      "target": "2026-03-22-mistrals-small-4-reasoning-vision-coding-in-one-model",
+      "weight": 2,
+      "sharedKeywords": [
+        "モデル",
+        "推論"
+      ]
+    },
+    {
+      "source": "2026-02-27-ai-tech",
       "target": "2026-03-22-tinybox-tinygrad",
       "weight": 3,
       "sharedKeywords": [
@@ -188457,6 +188601,15 @@
         "エージェント",
         "可視化",
         "公開"
+      ]
+    },
+    {
+      "source": "2026年2月6日-日本語フィード",
+      "target": "2026-03-22-mistrals-small-4-reasoning-vision-coding-in-one-model",
+      "weight": 2,
+      "sharedKeywords": [
+        "モデル",
+        "推論"
       ]
     },
     {
@@ -193059,6 +193212,15 @@
     },
     {
       "source": "2026-03-04-ai-tech",
+      "target": "2026-03-22-mistrals-small-4-reasoning-vision-coding-in-one-model",
+      "weight": 2,
+      "sharedKeywords": [
+        "推論",
+        "モデル"
+      ]
+    },
+    {
+      "source": "2026-03-04-ai-tech",
       "target": "2026-03-23-ai-tech",
       "weight": 2,
       "sharedKeywords": [
@@ -194517,6 +194679,16 @@
     },
     {
       "source": "2026-03-05-ai-tech",
+      "target": "2026-03-22-mistrals-small-4-reasoning-vision-coding-in-one-model",
+      "weight": 3,
+      "sharedKeywords": [
+        "運用",
+        "コスト",
+        "モデル"
+      ]
+    },
+    {
+      "source": "2026-03-05-ai-tech",
       "target": "2026-03-22-nvidia-nemoclaw-dgx-spark",
       "weight": 2,
       "sharedKeywords": [
@@ -195434,6 +195606,15 @@
       "sharedKeywords": [
         "データ",
         "モデル"
+      ]
+    },
+    {
+      "source": "2026-03-05-news-biz",
+      "target": "2026-03-22-mistrals-small-4-reasoning-vision-coding-in-one-model",
+      "weight": 2,
+      "sharedKeywords": [
+        "モデル",
+        "コスト"
       ]
     },
     {
@@ -207538,6 +207719,15 @@
     },
     {
       "source": "2026-03-11_jetson-edge-open-models",
+      "target": "2026-03-22-mistrals-small-4-reasoning-vision-coding-in-one-model",
+      "weight": 2,
+      "sharedKeywords": [
+        "モデル",
+        "コスト"
+      ]
+    },
+    {
+      "source": "2026-03-11_jetson-edge-open-models",
       "target": "2026-03-22-nvidia-nemoclaw-dgx-spark",
       "weight": 2,
       "sharedKeywords": [
@@ -208507,6 +208697,15 @@
       "sharedKeywords": [
         "モデル",
         "オープンモデル"
+      ]
+    },
+    {
+      "source": "2026-03-12-0825-ai-tech",
+      "target": "2026-03-22-mistrals-small-4-reasoning-vision-coding-in-one-model",
+      "weight": 2,
+      "sharedKeywords": [
+        "モデル",
+        "コスト"
       ]
     },
     {
@@ -210785,6 +210984,15 @@
     },
     {
       "source": "2026-03-13-nvidia-nemotron-3-super-open-model-bet",
+      "target": "2026-03-22-mistrals-small-4-reasoning-vision-coding-in-one-model",
+      "weight": 2,
+      "sharedKeywords": [
+        "コスト",
+        "推論"
+      ]
+    },
+    {
+      "source": "2026-03-13-nvidia-nemotron-3-super-open-model-bet",
       "target": "2026-03-23-ai-tech",
       "weight": 2,
       "sharedKeywords": [
@@ -212136,6 +212344,15 @@
       "sharedKeywords": [
         "モデル",
         "プロダクト"
+      ]
+    },
+    {
+      "source": "2026-03-14__wired__openai-codex-vs-claude-code",
+      "target": "2026-03-22-mistrals-small-4-reasoning-vision-coding-in-one-model",
+      "weight": 2,
+      "sharedKeywords": [
+        "モデル",
+        "コーディング"
       ]
     },
     {
@@ -214064,6 +214281,16 @@
     },
     {
       "source": "2026-03-15__venturebeat__nvidia-nemotron-3-super",
+      "target": "2026-03-22-mistrals-small-4-reasoning-vision-coding-in-one-model",
+      "weight": 3,
+      "sharedKeywords": [
+        "コスト",
+        "推論",
+        "モデル"
+      ]
+    },
+    {
+      "source": "2026-03-15__venturebeat__nvidia-nemotron-3-super",
       "target": "2026-03-22-tinybox-tinygrad",
       "weight": 2,
       "sharedKeywords": [
@@ -214763,6 +214990,15 @@
     },
     {
       "source": "2026-03-16-cointelegraph-nvidia-huang-ai-infra-jobs",
+      "target": "2026-03-22-mistrals-small-4-reasoning-vision-coding-in-one-model",
+      "weight": 2,
+      "sharedKeywords": [
+        "運用",
+        "モデル"
+      ]
+    },
+    {
+      "source": "2026-03-16-cointelegraph-nvidia-huang-ai-infra-jobs",
       "target": "2026-03-23-ai-tech",
       "weight": 2,
       "sharedKeywords": [
@@ -215353,6 +215589,15 @@
     },
     {
       "source": "2026-03-16-litellm-ha-routing",
+      "target": "2026-03-22-mistrals-small-4-reasoning-vision-coding-in-one-model",
+      "weight": 2,
+      "sharedKeywords": [
+        "モデル",
+        "コスト"
+      ]
+    },
+    {
+      "source": "2026-03-16-litellm-ha-routing",
       "target": "2026-03-22-scale-ai-launches-voice-showdown-voice-ai-benchmark",
       "weight": 2,
       "sharedKeywords": [
@@ -215590,6 +215835,15 @@
       "sharedKeywords": [
         "モデル",
         "出力"
+      ]
+    },
+    {
+      "source": "2026-03-17-ai-tech-news",
+      "target": "2026-03-22-mistrals-small-4-reasoning-vision-coding-in-one-model",
+      "weight": 2,
+      "sharedKeywords": [
+        "コスト",
+        "モデル"
       ]
     },
     {
@@ -216741,6 +216995,15 @@
     },
     {
       "source": "2026-03-21-ai-tech",
+      "target": "2026-03-22-mistrals-small-4-reasoning-vision-coding-in-one-model",
+      "weight": 2,
+      "sharedKeywords": [
+        "モデル",
+        "推論"
+      ]
+    },
+    {
+      "source": "2026-03-21-ai-tech",
       "target": "2026-03-22-nvidia-nemoclaw-dgx-spark",
       "weight": 3,
       "sharedKeywords": [
@@ -217213,6 +217476,15 @@
     },
     {
       "source": "2026-03-22-ethereum-treasury-public-companies",
+      "target": "2026-03-22-mistrals-small-4-reasoning-vision-coding-in-one-model",
+      "weight": 2,
+      "sharedKeywords": [
+        "運用",
+        "モデル"
+      ]
+    },
+    {
+      "source": "2026-03-22-ethereum-treasury-public-companies",
       "target": "2026-03-22-tinybox-tinygrad",
       "weight": 2,
       "sharedKeywords": [
@@ -217291,6 +217563,15 @@
       "sharedKeywords": [
         "データ",
         "モデル"
+      ]
+    },
+    {
+      "source": "2026-03-22-mistrals-small-4-reasoning-vision-coding-in-one-model",
+      "target": "2026-03-22-tinybox-tinygrad",
+      "weight": 2,
+      "sharedKeywords": [
+        "モデル",
+        "コスト"
       ]
     },
     {
